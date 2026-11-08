@@ -12,3 +12,5 @@ I started by looking up AWS documentation on how to create a key pair: https://d
 I created the keypair by EC2 instance. I logged in using the given credentials and search for "Key pairs". After search i clicked "create key pair" and begin the process of creation. I entered the name, selected the type, and created the pair. I made sure to be in east-us-1 region as well.
 
 Once the key pair created it downloaded to my computer to save in a safe place.
+
+I rate this one as <b>EASY</b>. Very straight to the point with no room for mistakes. Only mistake that can be made is not storing your key file in a safe place to revisit when needed.
