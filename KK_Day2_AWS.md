@@ -17,7 +17,7 @@ I attempted to create this group through the command line vs going straight the 
 ```
 aws ec2 create-security-group --group-name nautilus-sg --description "Security group for Nautilus App Servers" --vpc-id <id>
 ```
-### List Security Groups
+#### List Security Groups
 ```
 aws ec2 describe-security-groups
 ```
