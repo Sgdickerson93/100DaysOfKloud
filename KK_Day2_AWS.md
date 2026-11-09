@@ -15,11 +15,20 @@ I attempted to create this group through the command line vs going straight the 
 #### Create security group:
 
 ```
-aws ec2 describe-security-groups --group-names my-web-server-sg --description "" --vpc-id <enter ID> 
+aws ec2 describe-security-groups --group-names my-web-server-sg --description "description here" --vpc-id <enter ID> 
 ```
 
-#### Applied ingress rules:
+#### Applied ingress rules for HTTP:
 
 ```
 aws ec2 authorize-security-group-ingress --group-id sg-000000 --protocol tcp --port 80 --cidr 0.0.0.0/0
 ```
+
+#### Applied ingress rules for SSH:
+
+```
+aws ec2 authorize-security-group-ingress --group-id sg-000000 --protocol tcp --port 22 --cidr 0.0.0.0/0
+```
+
+<br>
+I did get some protocol parameter errors but i had to remind myself of port numbers and that TCP works with HTTP.
