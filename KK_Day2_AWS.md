@@ -15,7 +15,11 @@ I attempted to create this group through the command line vs going straight the 
 #### Create security group:
 
 ```
-aws ec2 describe-security-groups --group-names my-web-server-sg --description "description here" --vpc-id <enter ID> 
+aws ec2 create-security-group --group-name nautilus-sg --description "Security group for Nautilus App Servers" --vpc-id <id>
+```
+### List Security Groups
+```
+aws ec2 describe-security-groups
 ```
 
 #### Applied ingress rules for HTTP:
