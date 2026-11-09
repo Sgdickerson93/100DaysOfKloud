@@ -11,3 +11,15 @@ For VPCs: A security group controls the traffic that is allowed to reach and lea
 ### My Notes
 
 I attempted to create this group through the command line vs going straight the console. I did run into an error trying to figure out how to properly create the script but i figure it out. I also looked up if the group required a VPC or instance or creation and it did. The lab had VPC already created so i was able to debug and applied the group the VPC. My next step was applied the group rules.
+
+#### Create security group:
+
+```
+aws ec2 describe-security-groups --group-names my-web-server-sg --description "" --vpc-id <enter ID> 
+```
+
+#### Applied ingress rules:
+
+```
+aws ec2 authorize-security-group-ingress --group-id sg-000000 --protocol tcp --port 80 --cidr 0.0.0.0/0
+```
