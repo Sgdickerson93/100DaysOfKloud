@@ -34,5 +34,98 @@ aws ec2 authorize-security-group-ingress --group-id sg-000000 --protocol tcp --p
 aws ec2 authorize-security-group-ingress --group-id sg-000000 --protocol tcp --port 22 --cidr 0.0.0.0/0
 ```
 
+## Validation
+```
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0228c5f7df00627c7",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-0fe5677fad0eb5efb",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-1:123456789012:security-group/sg-0228c5f7df00627c7",
+            "OwnerId": "123456789012",
+            "GroupName": "nautilus-sg",
+            "Description": "Security group for Nautilus App Servers",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-07b4e46b30f4325cb",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-0fe5677fad0eb5efb",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-1:123456789012:security-group/sg-07b4e46b30f4325cb",
+            "OwnerId": "123456789012",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "123456789012",
+                            "GroupId": "sg-07b4e46b30f4325cb"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}
+
+```
+
 <br>
 I did get some protocol parameter errors but i had to remind myself of port numbers and that TCP works with HTTP.
