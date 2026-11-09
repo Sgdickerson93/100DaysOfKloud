@@ -1,4 +1,13 @@
 # Create Security Group
 
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-security-group.html
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/creating-security-group.html <br>
 
+### What is a security group?
+
+Security groups act as a firewall for associated instances, controlling both inbound and outbound traffic at the instance level. Security groups can be added to EC2 instance or VPCs. 
+
+For VPCs: A security group controls the traffic that is allowed to reach and leave the resources that it is associated with. 
+
+### My Notes
+
+I attempted to create this group through the command line vs going straight the console. I did run into an error trying to figure out how to properly create the script but i figure it out. I also looked up if the group required a VPC or instance or creation and it did. The lab had VPC already created so i was able to debug and applied the group the VPC. My next step was applied the group rules.
