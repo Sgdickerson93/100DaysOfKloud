@@ -2,7 +2,7 @@
 
 Day 1: Create Key Pair :white_check_mark: <br>
 Day 2: Create Security Group :white_check_mark: <br>
-Day 3: Create Subnet <br>
+Day 3: Create Subnet :white_check_mark: <br>
 Day 4: Enable Versioning for S3 Bucket <br>
 Day 5: Create GP3 Volume<br>
 Day 6: Launch EC2 Instance<br>
