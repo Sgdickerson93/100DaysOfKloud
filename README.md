@@ -36,16 +36,6 @@ Throughout this challenge, I'll be practicing:
 4. Verify the configuration and troubleshoot any issues.
 5. Document what I learned.
 
-## 📈 Progress Tracker
-
-**Completed: 3 / 100 Labs**
-
-| Day | Lab | Status |
-|---|---|---|
-| 1 | [AWS Day 1](KK_Day1_AWS.md) | ✅ Completed |
-| 2 | [AWS Day 2](KK_Day2_AWS.md) | ✅ Completed |
-| 3 | [AWS Day 3](KK_Day3_AWD.md) | ✅ Completed |
-
 I'll continue updating this repository as I progress through the challenge.
 
 ## 🔗 Resources
