@@ -4,7 +4,7 @@ Today's lab is being completed through the console.
 
 ## What is AWS S3?
 
-Simple Storage Server x3. It is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+[Simple Storage Server](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) x3. It is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
 ### What is an S3 Bucket? 
 
@@ -20,7 +20,7 @@ S3 versioning is used to preserve, retrieve, and restore every version of every 
 
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#Versions
 
-# The Task
+## The Task
 
 I completed this task by following the [Enabling versioning on buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/manage-versioning-examples.html) AWS Console instructions. The instructions were pretty straightforward. I did not encounter any errors or issues while enabling versioning.
 
@@ -35,6 +35,6 @@ aws s3api get-bucket-versioning --bucket my-bucket-name
 
 ![](./Images/Screenshot%202026-11-12%20at%2011.05.40 PM.png)
 
-# My Thoughts
+## My Thoughts
 
 EASY. EASY. EASY. I know that this is just the tip of the S3 bucket but this lab was very easy but eye opeing to the layers of S3 versioning. 
