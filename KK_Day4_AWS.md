@@ -4,7 +4,7 @@ Today's lab is being completed through the console.
 
 ## What is AWS S3?
 
-[Simple Storage Server](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) x3. It is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+[Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html) x3. It is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
 ### What is an S3 Bucket? 
 
