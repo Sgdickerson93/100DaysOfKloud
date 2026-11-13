@@ -31,6 +31,9 @@ I validated via AWS ClI.
 ```
 aws s3api get-bucket-versioning --bucket my-bucket-name
 ```
+#### SUCCESS!
+
+![](./Images/Screenshot%202026-11-12%20at%2011.05.40 PM.png)
 
 # My Thoughts
 
