@@ -59,5 +59,7 @@ aws ec2 create-subnet --vpc-id  vpc-id --cidr-block 172.31.100.0/24 --tag-specif
 }
 ```
 
+### My Thoughts
+
 The subnet was created. Overall, this was <b>EASY</b>. I did run into a few bumps when it came to choosing a subnet range that worked. Thanks to the CIDR checker, I was able to pinpoint one and complete the lab.
 
