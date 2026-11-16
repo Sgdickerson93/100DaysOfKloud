@@ -73,6 +73,6 @@ aws ec2 describe-volumes --volume-ids vol-07668bfc44f8a6a3b --query "Volumes[*].
 
 SUCCESS!
 
-# My Ratings
+### My Thoughts
 
 I would rate this lab as EASY. I did have to look up how to enter the size to ensure it was correct; however, there were no issues when creating this EBS volume. 
