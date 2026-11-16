@@ -43,6 +43,8 @@ After rerunning the command, it was created successfully. I still have to name t
 
 This will name the EBS volume using tags.
 
+https://stackoverflow.com/questions/12797622/how-to-name-an-ec2-ebs-volume-in-aws-console
+
 ```
 aws ec2 create-tags --resources vol-07668bfc44f8a6a3b --tags Key=Name,Value="xfusion-volume"
 ```
